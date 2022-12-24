@@ -1,0 +1,1942 @@
+.container{
+    width:100%;
+    margin:auto;
+}
+.top-navbar a{
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/academi1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+/* common selector end */
+/* top-navbar start */
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position:relative;
+}
+
+.academia h3{
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0px;
+    margin:25px 0px 0px 25px;
+
+}
+.academia p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    margin:0px 0px 0px 25px;
+
+}
+.contact{
+    display: flex;
+}
+.contact a{
+    display: flex;
+    margin: 10px;
+}
+.contact a i{
+    color: #fff;
+    font-size: 40px;
+    padding: 0px;
+    display: flex;
+    margin:25px 4px 0px 0px;
+}
+
+.contact p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px;
+    margin:25px 7px 0px 4px ;
+    display:inline-block;
+
+}
+.contact h5{
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    display:inline-block;
+    margin:5px 7px 0px 4px ;
+}
+.website {
+    margin: 10px 40px 0px 0px;
+}
+.website i{
+    color: #1eb2a6;
+    text-decoration: none;
+    padding: 7px;
+    margin: 30px 0px 0px 0px;
+    border: 1px solid  rgba(255, 255, 255,0.2);
+    background-color:  rgba(255, 255, 255,0.2);
+    border-radius: 50%;
+}
+.website i:hover{
+    color:#fff;
+    background-color: #1eb2a6;
+}
+
+/*top-navbar end */
+/*nav-bar start*/
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color:rgba(255, 255, 255,0.1);
+}
+.option a{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    Color:#fff;
+    font-size: 16px;
+    margin: 10px 10px 0px 0px;
+    padding: 0px 40px 10px 0px;
+    width:100%;
+    display: inline-block;
+    text-decoration: none;
+}
+.option ul{
+    display: flex;
+    padding-left: 15px;
+}
+.option li{
+    list-style: none;
+}
+.option ul li.home{
+    color:#1eb2a6;
+}
+.navbar .click{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: left;
+}
+.navbar .click .get{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    Color:#fff;
+    font-size: 15px;
+    padding: 25px 30px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    background-color: #1eb2a6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*nav-bar end*/
+/*main section start*/
+main .article{
+    width: 50%;
+    min-height: 50vh;
+}
+.article h3{
+    font-family: Roboto, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    margin:80px 0px 0px 25px;
+}
+.article h1{
+    font-family: Roboto, Arial, sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px;
+    margin:8px 0px 0px 25px;
+}
+.article p{
+    font-family: Roboto, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    margin:20px 0px 0px 25px;
+}
+.article .link{
+    display: flex;
+    margin-top:50px ;
+}
+.link .start a{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #1eb2a6;
+    border-radius: 5px;
+    background-color: #1eb2a6;
+    padding: 15px 35px;
+    margin: 40px 0px 0px 25px;
+}
+.link .course a{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color:#1eb2a6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px 40px;
+    margin: 40px 0px 0px 20px;
+}
+.link .start i{
+    color:#fff;
+    font-size: 8px;
+    padding-left: 10px;
+}
+.link .course i{
+    color:#1eb2a6;
+    font-size: 8px;
+    padding-left: 10px;
+}
+/*main section end*/
+
+/*about section start*/
+.about{
+    width:100% ; 
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    margin-top: 0px;
+}
+.about .photo1{
+    width: 50%;
+    height: 100%;
+}
+.about .content{
+    width: 50%;
+    min-height: 100vh;
+    background-color: #efefef;
+    padding-top: 40px;
+}
+.about .content h1{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 0px;
+    margin:12px 7px 20px 35px ;
+    display:inline-block;
+}
+.about .content .para{
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin:30px 20px 0px 20px;
+    padding: 30px 10px;
+}
+.about .content .para:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+}
+    
+
+.about .content h4{
+    font-family: Roboto, Arial, sans-serif;
+    color: #1eb2a6;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 0px;
+    margin:10px 0px 0px 38px ;
+    display:inline-block;
+}
+.about .content h3{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 8px;
+    margin:0px 0px 0px 10px ;
+    display:inline-block;
+    position: absolute;
+}
+.about .content p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 8px;
+    margin:0px 7px 0px 90px;
+    line-height: 25px;
+    word-spacing: 2px;
+    display:inline-block;
+}
+.content .para i{
+    color: #1eb2a6;
+    font-size: 50px;
+    margin: 0px 0px 0px 25px;
+    padding-top: 0px;
+}
+/*about section end*/
+
+/*counter section start*/
+.counter{
+    display: flex;
+    background-image: url(../img/academi4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: fit-content;
+}
+.counter .number{
+    margin: 100px 15px;
+    padding:10px 30px;
+    display: flex;
+}
+.number i{
+    color: #fff;
+    font-size: 45px;
+    padding: 6px;
+    margin-right: 20px;
+}
+.number h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+}
+.number p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0px;
+    margin: 2px;
+}
+.counter img{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*counter section end*/
+
+/*course section start*/
+.content{
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+}
+.course .content h3{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin-top: 0px;
+    padding-top: 80px;
+}
+.course .content h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.slide{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+.slide .slide1{
+    width: 28%;
+    height: 100%;
+    margin: 70px 20px 70px 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.slide1 .title{
+    display: flex;
+}
+.slide1 .title h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin:40px 8px 0px 7px;
+    padding: 5px;
+}
+.slide1 .title .software i{
+    font-size: 40px;
+    color: #fff;
+    margin: 40px 5px 0px 25px;
+    padding: 12px;
+    border: 1px solid #1eb2a6;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    display: inline-block;
+}
+ .slide1 .title p{
+    font-size: 12px;
+    color:#1eb2a6;
+    margin: 8px 5px 0px 12px;
+}
+.slide1 .title img{
+    margin: 12px 2px 4px 5px;
+    padding: 0px;
+    border-radius: 50%;
+    position: relative;
+}
+.slide1 .title .img{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    margin: 15px 0px 0px 7px;
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+}
+.slide1 .title h4{
+    font-family:Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    margin: 0px 5px 0px 12px;
+}
+.slide1 .click .a1 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #eeecec;
+    border-radius: 5px;
+    background-color: #eeecec;
+    margin:70px 30px 10px 30px;
+    padding:14px 25px;
+}
+.slide1 .click .a2 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #1eb2a6;
+    border-radius: 5px;
+    background-color: #fff;
+    margin:10px 30px 30px 30px;
+    padding: 13px 100px;
+}
+.slide .slide2{
+    width: 28%;
+    height: 100%;
+    margin: 70px 20px 70px 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.slide2 .title{
+    display: flex;
+}
+.slide2 .title h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin:40px 8px 0px 7px;
+    padding: 5px;
+}
+.slide2 .title .software i{
+    font-size: 40px;
+    color: #fff;
+    margin: 40px 5px 0px 25px;
+    padding: 12px;
+    border: 1px solid #1eb2a6;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    display: inline-block;
+}
+ .slide2 .title p{
+    font-size: 12px;
+    color:#1eb2a6;
+    margin: 8px 5px 0px 12px;
+}
+.slide2 .title img{
+    margin: 12px 2px 4px 5px;
+    padding: 0px;
+    border-radius: 50%;
+    position: relative;
+}
+.slide2 .title .img{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    margin: 15px 0px 0px 7px;
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+}
+.slide2 .title h4{
+    font-family:Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    margin: 0px 5px 0px 12px;
+}
+.slide2 .click .a1 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #eeecec;
+    border-radius: 5px;
+    background-color: #eeecec;
+    margin:70px 30px 10px 30px;
+    padding:14px 25px;
+}
+.slide2 .click .a2 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #1eb2a6;
+    border-radius: 5px;
+    background-color: #fff;
+    margin:10px 30px 30px 30px;
+    padding: 13px 100px;
+}
+.slide .slide3{
+    width: 28%;
+    height: 100%;
+    margin: 70px 40px 70px 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.slide3 .title{
+    display: flex;
+}
+.slide3 .title h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin:40px 8px 0px 7px;
+    padding: 5px;
+}
+.slide3 .title .software i{
+    font-size: 40px;
+    color: #fff;
+    margin: 40px 5px 0px 25px;
+    padding: 12px;
+    border: 1px solid #1eb2a6;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    display: inline-block;
+}
+ .slide3 .title p{
+    font-size: 12px;
+    color:#1eb2a6;
+    margin: 8px 5px 0px 12px;
+}
+.slide3 .title img{
+    margin: 12px 2px 4px 5px;
+    padding: 0px;
+    border-radius: 50%;
+    position: relative;
+}
+.slide3 .title .img{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    margin: 15px 0px 0px 7px;
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+}
+.slide3 .title h4{
+    font-family:Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    margin: 0px 5px 0px 12px;
+}
+.slide3 .click .a1 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #eeecec;
+    border-radius: 5px;
+    background-color: #eeecec;
+    margin:70px 30px 10px 30px;
+    padding:14px 25px;
+}
+.slide3 .click .a2 a{
+    font-family:Roboto, Arial, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color:#1eb2a6;
+    border: 1px solid #1eb2a6;
+    border-radius: 5px;
+    background-color: #fff;
+    margin:10px 30px 30px 30px;
+    padding: 13px 100px;
+}
+
+/*course section end*/
+
+/*browse section start*/
+.browse{
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+}
+.browse .content h3{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin-top: 0px;
+    padding-top: 80px;
+}
+.browse .content h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 5px 0px 80px 0px;
+}
+.browse .link1{
+    display: flex;
+    margin-bottom: 15px;
+}
+.browse .link1 .slide1{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 50px;
+}
+.link1 .slide1 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide1 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide1 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link1 .slide2{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link1 .slide2 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide2 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide2 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link1 .slide3{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link1 .slide3 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide3 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide3 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link1 .slide4{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link1 .slide4 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide4 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide4 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link1 .slide5{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link1 .slide5 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide5 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide5 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link1 .slide6{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin: 0px 50px 0px 10px;
+}
+.link1 .slide6 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link1 .slide6 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link1 .slide6 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2{
+    display: flex;
+    padding-bottom: 60px;
+}
+.browse .link2 .slide7{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 50px;
+}
+.link2 .slide7 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide7 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link2 .slide7 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2 .slide8{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link2 .slide8 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide8 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.link2 .slide8 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2 .slide9{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left:  10px;
+}
+.link2 .slide9 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide9 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.link2 .slide9 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2 .slide10{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link2 .slide10 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide10 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display:block;
+    text-align: center;
+    padding: 0px;
+}
+.link2 .slide10 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2 .slide11{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin-left: 10px;
+}
+.link2 .slide11 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide11 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+.link2 .slide11 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+.browse .link2 .slide12{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15%;
+    margin: 0px 50px 0px 10px;
+}
+.link2 .slide12 i{
+    color: #1eb2a6;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.link2 .slide12 h2{
+    color: #000;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 6px;
+}
+.link2 .slide12 p{
+    color: #1eb2a6;
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    border:1px solid #dcdbdb;
+    background-color:#dcdbdb ;
+    padding: 5px 10px;
+    margin:0px 0px 50px 50px;
+    display: inline-block;
+}
+/*browse section end*/
+
+/*testimonial section start*/
+
+.testimonial{
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+}
+.testimonial .content h3{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.testimonial .content h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 5px 0px 80px 0px;
+}
+.testimonial .slide1 .flex{
+    display: flex;
+}
+.testimonial .slide .slide1 img{
+    border-radius: 50%;
+    margin: 30px 8px 5px 35px;
+    position: relative;
+}
+.testimonial .slide .slide1 i{
+    font-size: 18px;
+    color:#fff;
+    border: 1px solid #1eb2a6;
+    background-color: #1eb2a6;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5px;
+    margin: 70px 0px 0px 85px;
+}
+.testimonial .slide .slide1 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 40px 0px 5px 10px;
+}
+.testimonial .slide .slide1 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin: 8px 0px 5px 10px;
+    
+}
+.testimonial .slide .slide1 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding: 20px 30px 50px 30px;
+    line-height: 28px;
+}
+
+.testimonial .slide2 .flex{
+    display: flex;
+}
+.testimonial .slide2{
+    background-color: #1eb2a6;
+}
+.testimonial .slide .slide2 img{
+    border-radius: 50%;
+    margin: 30px 8px 5px 35px;
+    position: relative;
+}
+.testimonial .slide .slide2 i{
+    font-size: 18px;
+    color:#1eb2a6;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5px;
+    margin: 70px 0px 0px 85px;
+}
+.testimonial .slide .slide2 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 40px 0px 5px 10px;
+}
+.testimonial .slide .slide2 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin: 8px 0px 5px 10px;
+    
+}
+.testimonial .slide .slide2 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 30px 50px 30px;
+    line-height: 28px;
+}
+
+.testimonial .slide3 .flex{
+    display: flex;
+}
+.testimonial .slide .slide3 img{
+    border-radius: 50%;
+    margin: 30px 8px 5px 35px;
+    position: relative;
+}
+.testimonial .slide .slide3 i{
+    font-size: 18px;
+    color:#fff;
+    border: 1px solid #1eb2a6;
+    background-color: #1eb2a6;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5px;
+    margin: 70px 0px 0px 85px;
+}
+.testimonial .slide .slide3 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 40px 0px 5px 10px;
+}
+.testimonial .slide .slide3 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin: 8px 0px 5px 10px;
+    
+}
+.testimonial .slide .slide3 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding: 20px 30px 50px 30px;
+    line-height: 28px;
+}
+
+/*testimonial section end*/
+
+/*blog section start*/
+.blog{
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+}
+.blog .content h3{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.blog .content h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 5px 0px 80px 0px;
+}
+.blog .slide .slide1 {
+    margin-left: 70px;
+}
+.blog .slide .slide1 .icon{
+    display: flex;
+    margin: 30px 30px 20px 30px;
+}
+.blog .slide1 i{
+    font-size: 10px;
+    color: #1eb2a6;
+    display: flex;
+    padding-top: 2px;
+}
+.blog .slide1 .icon h2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #999999;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide1 .icon h3{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide .slide1 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 30px;
+    padding: 0px;
+}
+.blog .slide .slide1 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    padding: 5px 10px 30px 30px;
+    line-height: 28px;
+}
+.blog .slide .slide2 .icon{
+    display: flex;
+    margin: 30px 30px 20px 30px;
+}
+.blog .slide2 i{
+    font-size: 10px;
+    color: #1eb2a6;
+    display: flex;
+    padding-top: 2px;
+}
+.blog .slide2 .icon h2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #999999;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide2 .icon h3{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide .slide2 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 30px;
+    padding: 0px;
+}
+.blog .slide .slide2 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    padding: 5px 10px 30px 30px;
+    line-height: 28px;
+}
+.blog .slide .slide2 {
+    margin:70px 7px 0px 7px;
+}
+.blog .slide .slide3 .icon{
+    display: flex;
+    margin: 30px 30px 20px 30px;
+}
+.blog .slide3 i{
+    font-size: 10px;
+    color: #1eb2a6;
+    display: flex;
+    padding-top: 2px;
+}
+.blog .slide3 .icon h2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #999999;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide3 .icon h3{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin: 0px;
+    padding: 0px 10px 2px 4px;
+}
+.blog .slide .slide3 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 30px;
+    padding: 0px;
+}
+.blog .slide .slide3 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    padding: 5px 10px 30px 30px;
+    line-height: 28px;
+}
+/*blog section end*/
+
+/*pricing section start*/
+.pricing{
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.pricing .content h3{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1eb2a6;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.pricing .content h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 5px 0px 80px 0px;
+}
+.pricing .slide .slide1{
+    width: 22%;
+}
+.pricing .slide .slide1 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+} 
+.pricing .slide .slide1 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #1eb2a6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:0px;
+} 
+.pricing .slide .slide1 .dollar{
+    font-size: 24px;
+    font-weight: 400;
+    color:#808080;
+    padding:0px;
+    margin: 0px;
+} 
+.pricing .slide .slide1 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 30px 50px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+.pricing .slide .slide1 a{
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1eb2a6;
+    padding: 15px;
+    margin: 0px 50px 40px 50px;
+    border: 1px solid #1eb2a6;
+    border-radius:5px;
+    text-align: center;
+    display: block;
+}
+.pricing .slide .slide2{
+    width: 22%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.pricing .slide .slide2 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+} 
+.pricing .slide .slide2 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #1eb2a6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:0px;
+} 
+.pricing .slide .slide2 .dollar{
+    font-size: 24px;
+    font-weight: 400;
+    color:#808080;
+    padding:0px;
+    margin: 0px;
+} 
+.pricing .slide .slide2 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 30px 50px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+.pricing .slide .slide2 a{
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1eb2a6;
+    padding: 15px;
+    margin: 0px 50px 40px 50px;
+    border: 1px solid #1eb2a6;
+    border-radius:5px;
+    text-align: center;
+    display: block;
+}
+.pricing .slide .slide3{
+    width: 22%;
+    margin-right: 10px;
+}
+.pricing .slide .slide3 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+} 
+.pricing .slide .slide3 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #1eb2a6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:0px;
+} 
+.pricing .slide .slide3 .dollar{
+    font-size: 24px;
+    font-weight: 400;
+    color:#808080;
+    padding:0px;
+    margin: 0px;
+} 
+.pricing .slide .slide3 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 30px 50px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+.pricing .slide .slide3 a{
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1eb2a6;
+    padding: 15px;
+    margin: 0px 50px 40px 50px;
+    border: 1px solid #1eb2a6;
+    border-radius:5px;
+    text-align: center;
+    display: block;
+}
+.pricing .slide .slide4{
+    width: 22%;
+    margin:70px 30px 70px 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.pricing .slide .slide4 h4{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+} 
+.pricing .slide .slide4 h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #1eb2a6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:0px;
+} 
+.pricing .slide .slide4 .dollar{
+    font-size: 24px;
+    font-weight: 400;
+    color:#808080;
+    padding:0px;
+    margin: 0px;
+} 
+.pricing .slide .slide4 p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 30px 50px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+.pricing .slide .slide4 a{
+    font-family: Roboto, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1eb2a6;
+    padding: 15px;
+    margin: 0px 50px 40px 50px;
+    border: 1px solid #1eb2a6;
+    border-radius:5px;
+    text-align: center;
+    display: block;
+}
+/*pricing section end*/
+
+/*email section start*/
+.newsletter{
+    background-color: #1eb2a6;
+    margin:0px;
+    padding-top: 0px;
+    display: flex;
+}
+.newsletter .contant{
+    width: 60%;
+}
+.newsletter .contant h1{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding: 70px 30px 0px 90px;
+    margin:0px 20px 10px 60px;
+}
+.newsletter .contant p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    /*display: flex;
+    justify-content: ;*/
+    padding:0px 30px 50px 20px;
+    margin: 0px 30px 10px 130px;
+}
+.newsletter .email input{
+    width:350px;
+    font-size: 16px;
+    border:none;
+    outline: 0px solid transparent;
+    background-color: #1eb2a6;
+    padding:0px;
+    margin: 0px;
+    color: #fff;
+    display: block;
+    border-bottom:1px solid #fff;
+
+}
+.newsletter .email input::-webkit-input-placeholder{
+    color: #fff;
+}
+.newsletter .email i{
+    display: flex;
+    justify-content:end;
+    color: #fff;
+    padding:100px 0px 0px 0px;
+    margin: 0px;
+}
+/*email section end*/
+
+/*sub footer section start*/
+.sub-footer{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 50px 0px;
+}
+.sub-footer .academia{
+    width: 25%;
+}
+.sub-footer .academia h1{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 50px 10px 0px 50px;
+    margin:0px;
+}
+.sub-footer .academia h4{
+    font-family: Roboto, Arial, sans-serif;
+    color: #1eb2a6;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0px 10px 10px 50px;
+    margin:0px;
+}
+.sub-footer .academia p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px 0px 30px;
+    margin-top:20px;
+    line-height: 25px;
+}
+.sub-footer .academia .link{
+    margin:25px 0px 30px 50px;
+}
+.sub-footer .academia a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #1eb2a6;
+    background-color: #1eb2a6;
+    border-radius: 50%;
+    padding: 10px;
+    margin:5px;
+}
+.sub-footer .explore{
+    width: 20%;
+}
+.sub-footer .explore h2{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px 10px 10px 30px;
+    margin:0px;
+}
+.sub-footer .explore ul li{
+    font-family: Roboto, Arial, sans-serif;
+    color: #808080;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px 0px;
+    margin:0px 30px 0px 0px;
+}
+.sub-footer .explore li i{
+    color: #1eb2a6;
+    list-style: none;
+    font-size: 10px;
+    margin-right:8px;
+}
+.sub-footer .links{
+    width: 25%;
+}
+.sub-footer .links h2{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px 10px 10px 30px;
+    margin:0px;
+}
+.sub-footer .links ul li{
+    font-family: Roboto, Arial, sans-serif;
+    color: #808080;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px 0px;
+    margin:0px 30px 0px 0px;
+}
+.sub-footer .links li i{
+    color: #1eb2a6;
+    list-style: none;
+    font-size: 10px;
+    margin-right:8px;
+}
+.sub-footer .post{
+    width: 25%;
+}
+.sub-footer .post h2{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px 10px 10px 30px;
+    margin:0px;
+}
+.sub-footer .post .slide1{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+}
+.sub-footer .post .slide1 img{
+    border-radius: 5px;
+}
+.sub-footer .post .slide1 .date{
+    font-family: Roboto, Arial, sans-serif;
+    color: #1eb2a6;
+    font-size: 12px;
+    font-weight: 500;
+    padding:10px 20px;
+    margin-top:15px;
+}
+.sub-footer .post .slide1 p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 15px 10px 20px;
+    margin:0px;
+}
+.sub-footer .post .slide2{
+    display: flex;
+    padding: 10px;
+}
+.sub-footer .post .slide2 img{
+    border-radius: 5px;
+}
+.sub-footer .post .slide2 .date{
+    font-family: Roboto, Arial, sans-serif;
+    color: #1eb2a6;
+    font-size: 12px;
+    font-weight: 500;
+    padding:10px 20px;
+    margin-top:0px;
+}
+.sub-footer .post .slide2 p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 15px 10px 20px;
+    margin:0px;
+}
+.sub-footer .post .slide3{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.sub-footer .post .slide3 img{
+    border-radius: 5px;
+}
+.sub-footer .post .slide3 .date{
+    font-family: Roboto, Arial, sans-serif;
+    color: #1eb2a6;
+    font-size: 12px;
+    font-weight: 500;
+    padding:10px 20px;
+    margin-top:0px;
+}
+.sub-footer .post .slide3 p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 15px 10px 20px;
+    margin:0px;
+}
+.sub-footer .question{
+    width: 25%;
+    margin-right: 40px;
+}
+.sub-footer .question h2{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px 10px 10px 30px;
+    margin:0px;
+}
+.sub-footer .question .para{
+    margin-top: 30px;
+}
+.sub-footer .question .para1{
+    display: flex;
+}
+.sub-footer .question i{
+    color: #1eb2a6;
+    font-size: 15px;
+    padding:15px;
+}
+.sub-footer .question p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+    margin:0px;
+}
+/*sub footer section end*/
+
+/*footer section start*/
+.footer{
+    background-color: #eeecec;
+    width: 100%;
+}
+.footer p{
+    font-family: Roboto, Arial, sans-serif;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 60px 30px;
+    margin:0px;
+    text-align: center;
+}
+.footer .color{
+    color: #1eb2a6;
+}
+
+/*footer section end*/
+
